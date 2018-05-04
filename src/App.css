@@ -1,0 +1,22 @@
+.App {
+  background-image: linear-gradient(bottom, #E9E9E9 70%,#369BDD 30%);
+  background-image: -o-linear-gradient(bottom, #E9E9E9 70%,#369BDD 30%);
+  background-image: -moz-linear-gradient(bottom, #E9E9E9 70%, #369BDD 30%);
+  background-image: -webkit-linear-gradient(bottom,#E9E9E9 70%, #369BDD 30%);
+  background-image: -ms-linear-gradient(bottom,#E9E9E9 70%, #369BDD 30%);
+
+  color: #003366;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  margin: 12px 0 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 86px;
+  border: 3px solid #999999;
+  border-radius: 8px 8px 8px 8px;
+  display: inline-block;
+}
