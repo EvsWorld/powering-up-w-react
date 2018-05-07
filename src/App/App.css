@@ -1,0 +1,50 @@
+* {
+  /* So 100% means 100% */
+  box-sizing: border-box;
+}
+    .App {
+    text-align: center;
+    /* background-repeat: no-repeat; */
+    /* This was important for keeping background in place*/
+    /* display: flex; */
+    /* align-items: center; */ /* Not needed */
+    /* flex-direction: column;  /* Gets Nav and viewPort to stack */
+    /* justify-content: center; /* centers contents on 'main axis' (vertical in this case) */
+    /* min-height: 100vh; */ /* wasn't needed */
+
+    /* centers immediate contents east-west (which is <App/> in this case) */
+    /* margin: 0 auto; */
+
+  }
+
+  .no-padding {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: red;
+  }
+
+
+  /* .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+
+  .App-title {
+    font-size: 1.5em;
+  }
+
+  .App-intro {
+    font-size: large;
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  } */
